@@ -1,0 +1,84 @@
+/* landing page style */
+
+body {
+    background: rgb(38, 0, 6);
+    background: linear-gradient( 0deg, rgba(38, 0, 6, 1) 0%, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.fab {
+    /* background: #fff; */
+    color: #000;
+}
+
+.profileImage {
+    border-radius: 50%;
+}
+
+.profileImageContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 10%;
+}
+
+.name {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: rgb(243, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.btn {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn a:hover {
+    background: rgba(100, 0, 0, 0.9);
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container a {
+    margin: 30px;
+    text-decoration: none;
+}
+
+.container a:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
